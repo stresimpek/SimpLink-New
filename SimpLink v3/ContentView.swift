@@ -380,8 +380,7 @@ class RoutePlanner: NSObject, ObservableObject {
                 
                 let walkStep = RouteStep(
                     time: dateFormatter.string(from: Calendar.current.date(byAdding: .second,
-                                                                          value: Int(accumulatedTime),
-                                                                          to: now)!),
+                                                                          value: Int(accumulatedTime),                           to: now)!),
                     location: "Walk to \(suggestedRoute.startStop.name)",
                     address: nil,
                     duration: self.formattedDuration(suggestedRoute.walkingTimeToStart),
