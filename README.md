@@ -1,4 +1,4 @@
-# Bus Map Minimal App
+# SimpLink App
 
 A lightweight iOS map application focused on quick and simple access to BSD bus routes and location information.  
 
